@@ -4,15 +4,28 @@
   "description": "Creating a Bucket list application with React for real-time practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "test": "eslint ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "bucket-list",
+    "practice",
+    "vite"
+  ],
+  "author": "Julian Wiley",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtwiley1996/bucket-list-react.git"
+  },
   "dependencies": {
-    "eslint": "^9.0.0",
     "react": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "vite": "^5.2.9"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
   }
 }
